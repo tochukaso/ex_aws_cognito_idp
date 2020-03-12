@@ -53,7 +53,7 @@ defmodule ExAws.CognitoIdp do
           desired_delivery_mediums: [String.t()],
           force_alias_creation: boolean,
           message_action: String.t(),
-          tempory_password: String.t(),
+          temporary_password: String.t(),
           user_attributes: [attribute],
           validation_data: [attribute]
         ]
